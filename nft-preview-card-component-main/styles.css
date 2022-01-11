@@ -1,0 +1,77 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+/* ---- Card ---- */
+.card {
+    box-sizing: border-box;
+    background-color: hsl(216, 50%, 16%);
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 1.5625rem;
+    max-width: 20rem;
+    height: max-content;
+}
+.card .card-image {
+    border: 0.0625rem solid transparent;
+    border-radius: 0.625rem;
+    width: 15rem;
+    height: 20rem;
+    margin-bottom: 1.5rem;
+}
+.card header {
+    color: hsl(0, 0%, 100%);
+    font-size: 1.125rem;
+    font-weight: 600; 
+}
+.card p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.card main {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    align-items: center;
+}
+.card main .amount {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: hsl(178, 100%, 50%);
+}
+.card main .days {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: hsl(215, 51%, 70%);
+}
+.card footer {
+    border-top: 0.0625rem solid hsl(215, 32%, 27%);
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 1rem 0 0 0;
+    align-items: center;
+}
+.card footer img {
+    border: 0.0625rem solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    height: 2.75rem;
+    width: 2.75rem;
+}
+.card footer p {
+    color: hsl(0, 0%, 100%);
+}
+.card footer p span {
+    color: hsl(215, 51%, 70%);
+}
+
+/* ---- Attribution ---- */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
