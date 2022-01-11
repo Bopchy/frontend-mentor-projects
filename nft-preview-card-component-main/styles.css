@@ -21,7 +21,7 @@ html, body {
     border: 0.0625rem solid transparent;
     border-radius: 0.625rem;
     width: 15rem;
-    height: 20rem;
+    height: auto;
     margin-bottom: 1.5rem;
 }
 .card header {
