@@ -49,16 +49,18 @@ html, body {
     position: absolute;
     transform: translate(-50%, -50%);
 }
-.card:active  .view-icon {
+.card-image-container:hover .view-icon {
     opacity: 1;
+    cursor: pointer;
 }
 .card h1 {
     color: hsl(0, 0%, 100%);
     font-size: 1.125rem;
     font-weight: 600; 
 }
-.card:active h1 {
+.card h1:hover {
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 .card p {
     color: hsl(215, 51%, 70%);
@@ -93,14 +95,15 @@ html, body {
 .card .card-footer img {
     border: 0.0625rem solid hsl(0, 0%, 100%);
     border-radius: 50%;
-    height: 2.75rem;
-    width: 2.75rem;
+    height: 2rem;
+    width: 2rem;
 }
 .card .card-footer p {
     color: hsl(0, 0%, 100%);
 }
-.card:active footer p {
+.card footer p:hover {
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 .card .card-footer p span {
     color: hsl(215, 51%, 70%);
