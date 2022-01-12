@@ -52,12 +52,12 @@ html, body {
 .card:active  .view-icon {
     opacity: 1;
 }
-.card header {
+.card h1 {
     color: hsl(0, 0%, 100%);
     font-size: 1.125rem;
     font-weight: 600; 
 }
-.card:active header {
+.card:active h1 {
     color: hsl(178, 100%, 50%);
 }
 .card p {
