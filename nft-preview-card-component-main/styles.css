@@ -82,7 +82,7 @@ html, body {
     gap: 0.5rem;
     color: hsl(215, 51%, 70%);
 }
-.card footer {
+.card .card-footer {
     border-top: 0.0625rem solid hsl(215, 32%, 27%);
     display: flex;
     flex-direction: row;
@@ -90,19 +90,19 @@ html, body {
     padding: 1rem 0 0 0;
     align-items: center;
 }
-.card footer img {
+.card .card-footer img {
     border: 0.0625rem solid hsl(0, 0%, 100%);
     border-radius: 50%;
     height: 2.75rem;
     width: 2.75rem;
 }
-.card footer p {
+.card .card-footer p {
     color: hsl(0, 0%, 100%);
 }
 .card:active footer p {
     color: hsl(178, 100%, 50%);
 }
-.card footer p span {
+.card .card-footer p span {
     color: hsl(215, 51%, 70%);
 }
 
