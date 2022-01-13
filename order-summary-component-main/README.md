@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://github.com/Bopchy/frontend-mentor-projects/tree/main/order-summary-component-main)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/order-summary-component-dxbYvbCuB)
 - Live Site URL: [Live site](https://dazzling-hypatia-4e5e2f.netlify.app/)
 
 ## My process
@@ -52,5 +52,5 @@ I learnt that I could watch for `.scss` file changes using the Dart Sass `sass -
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Bopchy)
-- Twitter - [@yourusername](https://www.twitter.com/bopchybeau)
+- Frontend Mentor - [@Bopchy](https://www.frontendmentor.io/profile/Bopchy)
+- Twitter - [@bopchybeau](https://www.twitter.com/bopchybeau)

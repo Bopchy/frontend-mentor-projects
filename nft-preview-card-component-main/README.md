@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](https://github.com/Bopchy/frontend-mentor-projects/tree/main/nft-preview-card-component-main)
+- Solution URL: [solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-gJjk9wMS0)
 - Live Site URL: [live site](https://compassionate-einstein-384c1d.netlify.app/)
 
 ## My process
@@ -94,5 +94,5 @@ My initial solution was to place the background color on the `card-image-contain
 
 ## Author
 
-- Frontend Mentor - [@bopchy](https://www.frontendmentor.io/profile/Bopchy)
+- Frontend Mentor - [@Bopchy](https://www.frontendmentor.io/profile/Bopchy)
 - Twitter - [@bopchybeau](https://www.twitter.com/bopchybeau)
