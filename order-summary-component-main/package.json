@@ -1,0 +1,15 @@
+{
+  "name": "order-summary-component-main",
+  "version": "1.0.0",
+  "description": "Frontend mentor order summary component",
+  "main": "index.js",
+  "author": "https://github.com/Bopchy",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "compile-scss": "sass styles/input.scss styles/output.css --watch"
+  },
+  "dependencies": {
+    "sass": "^1.48.0"
+  }
+}
