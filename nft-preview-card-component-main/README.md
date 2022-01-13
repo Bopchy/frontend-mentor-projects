@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution](https://www.frontendmentor.io/solutions/nft-preview-card-component-gJjk9wMS0)
+- Solution URL: [solution](https://github.com/Bopchy/frontend-mentor-projects/tree/main/nft-preview-card-component-main)
 - Live Site URL: [live site](https://compassionate-einstein-384c1d.netlify.app/)
 
 ## My process
