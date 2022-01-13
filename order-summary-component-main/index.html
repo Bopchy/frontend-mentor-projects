@@ -6,6 +6,9 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" type="text/css" href="./styles/output.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Order summary card</title>
 </head>
@@ -17,23 +20,25 @@
       <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
       device anywhere you like!</p>
     </header>
-    <main class="plan-details">
-      <img class="plan-icon" src="./images/icon-music.svg" alt="music icon" />
-      <span>
-        <p class="plan">Annual Plan</p>
-        <p class="price">$59.99/year</p>
-      </span>
-      <button class="change-plan">Change</button>
+    <main class="main">
+      <div class="plan-details">
+        <img class="plan-icon" src="./images/icon-music.svg" alt="music icon" />
+        <span>
+          <p class="plan">Annual Plan</p>
+          <p class="price">$59.99/year</p>
+        </span>
+        <button class="change-plan">Change</button>
+      </div>
+      <div class="button-group">
+        <button class="proceed">Proceed to Payment</button>
+        <button class="cancel">Cancel Order</button>
+      </div>
     </main>
-    <footer class="footer">
-      <button class="proceed">Proceed to Payment</button>
-      <button class="cancel">Cancel Order</button>
-    </footer>
   </div>
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/Bopchy">Bopchy</a>.
-  </div>
+  </footer>
 </body>
 </html>
