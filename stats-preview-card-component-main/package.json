@@ -1,0 +1,20 @@
+{
+  "name": "stats-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "A stats preview card component.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Bopchy/frontend-mentor-projects"
+  },
+  "author": "https://github.com/Bopchy",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./styles/styles.css -o ./styles/output.css --watch"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.13"
+  }
+}
