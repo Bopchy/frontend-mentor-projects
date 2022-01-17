@@ -1,4 +1,9 @@
-html, body {
+html {
+    width: 100%;
+    height: 100%; 
+} 
+
+body {
     font-family: 'Outfit', sans-serif;
     font-family: 'Red Hat Display', sans-serif;
     display: grid;
@@ -9,7 +14,7 @@ html, body {
     height: 100%;
     background-image: url("../images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
-    background-size: 100% 22em;
+    background-size: 100% 15em;
     background-color: hsl(225, 100%, 94%);
 }
 
@@ -133,6 +138,10 @@ html, body {
 
 // ------ Media Queries ------
 @media screen and (min-width: 376px) {
+    body {
+        background-image: url("../images/pattern-background-desktop.svg");
+        background-size: contain;
+    }
     .card {
       width: 25rem;
     }
