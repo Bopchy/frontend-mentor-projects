@@ -556,10 +556,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: hsl(244 38% 16% / var(--tw-bg-opacity));
 }
 
-.bg-mobile-hero {
-  background-image: url('../images/image-header-mobile.jpg');
-}
-
 .p-6 {
   padding: 1.5rem;
 }
@@ -678,4 +674,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .after\:opacity-70::after {
   content: var(--tw-content);
   opacity: 0.7;
+}
+
+@media (min-width: 90rem) {
+  .desktop\:w-3\/4 {
+    width: 75%;
+  }
+
+  .desktop\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
 }

@@ -13,10 +13,6 @@ module.exports = {
       gridTemplateRows: {
         "2-auto": "1fr auto",
       },
-      backgroundImage: {
-        "mobile-hero": "url('../images/image-header-mobile.jpg')",
-        "desktop-hero": "url('../images/image-header-desktop.jpg')",
-      },
     },
     fontFamily: {
       inter: "Inter, sans-serif",
@@ -29,7 +25,7 @@ module.exports = {
       "3xl": "1.875rem",
     },
     screens: {
-      desktop: "23.5rem",
+      desktop: "90rem",
     },
   },
   plugins: [require("tailwindcss"), require("autoprefixer")],
