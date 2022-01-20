@@ -13,6 +13,9 @@ module.exports = {
       gridTemplateRows: {
         "2-auto": "1fr auto",
       },
+      height: {
+        100: "27rem",
+      },
     },
     fontFamily: {
       inter: "Inter, sans-serif",

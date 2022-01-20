@@ -13,36 +13,37 @@
   <title>Frontend Mentor | Stats preview card component</title>
 </head>
 <body class="min-h-full w-full bg-very-dark-blue grid grid-rows-2-auto items-center justify-items-center text-md">
-  <main class="bg-dark-desaturated-blue w-80 rounded-lg my-8 flex flex-col desktop:flex-row-reverse desktop:w-3/4">
-    <div class="relative after:content[' '] after:absolute after:w-full after:h-full after:rounded-t-lg after:top-0 after:bg-soft-violet after:opacity-70">
+  <main class="bg-dark-desaturated-blue w-80 rounded-lg my-8 flex flex-col desktop:flex-row-reverse desktop:w-3/4 desktop:h-100">
+    <div class="relative after:content[' '] after:absolute after:w-full after:h-full after:rounded-t-lg after:top-0 after:bg-soft-violet after:opacity-70 after:desktop:rounded-tl-none after:desktop:rounded-br-lg desktop:w-2/4">
       <img
         src="./images/image-header-mobile.jpg"
         sizes="(max-width: 1440px) 1440px"
         srcset="./images/image-header-desktop.jpg 1440w"
-        class="rounded-t-lg block h-full w-full"
+        class="rounded-t-lg desktop:rounded-tl-none desktop:rounded-br-lg block h-full w-full"
         alt="People seated around a table" 
       />
     </div>
-    <div class="flex flex-col gap-4 p-6 text-center">
+    <div class="flex flex-col gap-4 p-6 text-center desktop:w-2/4 desktop:px-20 desktop:py-16 desktop:text-left">
       <h1 class="text-3xl text-white leading-8 font-inter font-bold">Get <span class="text-soft-violet">insights</span> that help your business grow.</h1>
-      <p class="text-main-paragraph-white mb-4 px-2 leading-7 font-inter font-normal">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+      <p class="text-main-paragraph-white mb-4 px-2 leading-7 font-inter font-normal desktop:px-0 desktop:mb-10">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
       experience, and overall efficiency.</p>
-  
-      <p class="text-xs text-stats-white flex flex-col uppercase">
-        <span class="text-2xl font-lexed-deca font-normal text-white">10k+</span>companies
-      </p>
-      <p class="text-xs text-stats-white flex flex-col uppercase">
-        <span class="text-2xl font-lexed-deca font-normal text-white">314</span>templates
-      </p>
-      <p class="text-xs text-stats-white flex flex-col uppercase">
-        <span class="text-2xl font-lexed-deca font-normal text-white">12m+</span>queries
-      </p>
+      <div class="flex flex-col gap-4 desktop:flex-row desktop:gap-16">
+        <p class="text-xs text-stats-white flex flex-col uppercase">
+          <span class="text-2xl font-lexed-deca font-normal text-white">10k+</span>companies
+        </p>
+        <p class="text-xs text-stats-white flex flex-col uppercase">
+          <span class="text-2xl font-lexed-deca font-normal text-white">314</span>templates
+        </p>
+        <p class="text-xs text-stats-white flex flex-col uppercase">
+          <span class="text-2xl font-lexed-deca font-normal text-white">12m+</span>queries
+        </p>
+      </div>
     </div>
   </main>
 
   <footer class="text-soft-violet text-[0.6875rem] p-4">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/Bopchy">Bopchy</a>.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-white underline">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Bopchy" class="text-white underline">Bopchy</a>.
   </footer>
 </body>
 </html>
