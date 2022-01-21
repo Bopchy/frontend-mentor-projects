@@ -1,0 +1,16 @@
+{
+  "name": "3-column-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "3 column preview card component ",
+  "main": "index.js",
+  "repository": "https://github.com/Bopchy/frontend-mentor-projects",
+  "author": "https://github.com/Bopchy",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "compile-less": "lessc styles/input.less styles/output.css --watch"
+  },
+  "dependencies": {
+    "less": "^4.1.2"
+  }
+}
