@@ -8,9 +8,11 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "compile-less": "lessc styles/input.less styles/output.css --watch"
+    "compile-less": "lessc styles/input.less styles/output.css"
   },
   "dependencies": {
+    "bower": "^1.8.13",
+    "grunt": "^1.4.1",
     "less": "^4.1.2"
   }
 }
