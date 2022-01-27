@@ -1,24 +1,67 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 95%);
+}
 .card {
     display: flex;
     flex-direction: column;
-    .sedans {
-        background-color: hsl(31, 77%, 52%);
-    }
-    .suvs {
-        background-color: hsl(184, 100%, 22%);
-    }
-    .luxury {
-        background-color: hsl(179, 100%, 13%);
+    width: 20rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin: 4rem 0;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    font-size: 0.9375rem;
+    font-family: 'Lexend Deca', sans-serif;
+    div {
+        padding: 3rem;
+        img {
+            width: 3rem;
+            height: 2rem;
+        }
+        h1 {
+            color: hsl(0, 0%, 95%);
+            font-family: 'Big Shoulders Display', cursive;
+            text-transform: uppercase;
+        }
+        button {
+            border: none;
+            border-radius: 1.625rem;
+            padding: 1rem;
+            background-color: hsl(0, 0%, 95%);
+            width: 8.75rem;
+            margin-top: 0.75rem
+        }
     }
 }
-button {
-    border: none;
-    border-radius: 0.625rem;
-    padding: 1rem;
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    button {
+        color: hsl(31, 77%, 52%); 
+    }
+}
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+    button {
+        color: hsl(184, 100%, 22%); 
+    }
+}
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    button {
+        color: hsl(179, 100%, 13%); 
+    }
 }
 .attribution {
-    font-size: 11px;
+    font-size: 0.75rem;
     text-align: center;
+    padding: 1rem;
     a {
         color: hsl(228, 45%, 44%);
     }
