@@ -38,12 +38,18 @@ body {
         margin: 0;
     }
     button {
-        border: none;
+        border: 0.0625rem solid transparent;
         border-radius: 1.625rem;
         padding: 1rem;
         background-color: hsl(0, 0%, 95%);
         width: 8.75rem;
-        margin-top: 0.75rem
+        margin-top: 0.75rem;
+        cursor: pointer;
+        &:hover {
+            background-color: transparent;
+            border-color: hsl(0, 0%, 95%);
+            color: hsl(0, 0%, 95%);
+        }
     }
 }
 
