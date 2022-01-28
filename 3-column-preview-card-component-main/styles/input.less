@@ -1,3 +1,6 @@
+html {
+    height: 100%;
+}
 body {
     box-sizing: border-box;
     margin: 0;
@@ -18,25 +21,29 @@ body {
     overflow: hidden;
     font-size: 0.9375rem;
     font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.8;
     div {
         padding: 3rem;
-        img {
-            width: 3rem;
-            height: 2rem;
-        }
-        h1 {
-            color: hsl(0, 0%, 95%);
-            font-family: 'Big Shoulders Display', cursive;
-            text-transform: uppercase;
-        }
-        button {
-            border: none;
-            border-radius: 1.625rem;
-            padding: 1rem;
-            background-color: hsl(0, 0%, 95%);
-            width: 8.75rem;
-            margin-top: 0.75rem
-        }
+    }
+    img {
+        width: 3rem;
+        height: 2rem;
+    }
+    h1 {
+        color: hsl(0, 0%, 95%);
+        font-family: 'Big Shoulders Display', cursive;
+        text-transform: uppercase;
+    }
+    p {
+        margin: 0;
+    }
+    button {
+        border: none;
+        border-radius: 1.625rem;
+        padding: 1rem;
+        background-color: hsl(0, 0%, 95%);
+        width: 8.75rem;
+        margin-top: 0.75rem
     }
 }
 
@@ -64,5 +71,17 @@ body {
     padding: 1rem;
     a {
         color: hsl(228, 45%, 44%);
+    }
+}
+
+// Media Queries
+@media (min-width: 1440px) {
+    .card {
+        width: 57rem;
+        height: 30rem;
+        flex-direction: row;
+        button {
+            margin-top: 3.75rem;
+        }
     }
 }

@@ -1,3 +1,6 @@
+html {
+  height: 100%;
+}
 body {
   box-sizing: border-box;
   margin: 0;
@@ -18,25 +21,29 @@ body {
   overflow: hidden;
   font-size: 0.9375rem;
   font-family: 'Lexend Deca', sans-serif;
+  line-height: 1.8;
 }
 .card div {
   padding: 3rem;
 }
-.card div img {
+.card img {
   width: 3rem;
   height: 2rem;
 }
-.card div h1 {
+.card h1 {
   color: hsl(0, 0%, 95%);
   font-family: 'Big Shoulders Display', cursive;
   text-transform: uppercase;
 }
-.card div button {
+.card p {
+  margin: 0;
+}
+.card button {
   border: none;
   border-radius: 1.625rem;
   padding: 1rem;
   background-color: hsl(0, 0%, 95%);
-  width: 8rem;
+  width: 8.75rem;
   margin-top: 0.75rem;
 }
 .sedans {
@@ -64,4 +71,14 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media (min-width: 1440px) {
+  .card {
+    width: 57rem;
+    height: 30rem;
+    flex-direction: row;
+  }
+  .card button {
+    margin-top: 3.75rem;
+  }
 }
