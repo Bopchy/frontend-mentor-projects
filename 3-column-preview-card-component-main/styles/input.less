@@ -1,10 +1,6 @@
-html {
-    height: 100%;
-}
 body {
     box-sizing: border-box;
     margin: 0;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,10 +14,10 @@ body {
     color: hsla(0, 0%, 100%, 0.75);
     margin: 4rem 0;
     border-radius: 0.5rem;
-    overflow: hidden;
     font-size: 0.9375rem;
     font-family: 'Lexend Deca', sans-serif;
     line-height: 1.8;
+    overflow: hidden;
     div {
         padding: 3rem;
     }
@@ -38,17 +34,21 @@ body {
         margin: 0;
     }
     button {
-        border: 0.0625rem solid transparent;
+        border: 0.125rem solid transparent;
         border-radius: 1.625rem;
         padding: 1rem;
         background-color: hsl(0, 0%, 95%);
         width: 8.75rem;
-        margin-top: 0.75rem;
+        margin-top: 1.5rem;
         cursor: pointer;
+        transform: scale(1);
+        transition: transform 0.25s ease-in-out;
         &:hover {
             background-color: transparent;
             border-color: hsl(0, 0%, 95%);
             color: hsl(0, 0%, 95%);
+            transform: scale(1.125);
+            transition: transform 0.25s ease-in-out;
         }
     }
 }
