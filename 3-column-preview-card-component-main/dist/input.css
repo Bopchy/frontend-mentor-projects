@@ -79,6 +79,10 @@ body {
   color: hsl(228, 45%, 44%);
 }
 @media (min-width: 1440px) {
+  html,
+  body {
+    height: 100%;
+  }
   .card {
     width: 57rem;
     height: 30rem;
