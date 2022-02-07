@@ -4,42 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   
-  <!-- load MUI -->
-  <link href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css" rel="stylesheet" type="text/css" />
-  <script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
 
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Profile card component</title>
 </head>
 <body>
-  <main class="mui-panel">
-    <img src="./images/image-victor.jpg" alt="avatar" />
-    <h1>Victor Crest <span>26</span></h1>
-    <p>London</p>
-    <div>
-      <p>
-        <span>80K</span>
-        <span>Followers</span>
-      </p>
-      <p>
-        <span>803K</span>
-        <span>Likes</span>
-      </p>
-      <p>
-        <span>1.4K</span>
-        <span>Photos</span>
-      </p>
-      </span>
+  <section class="card">
+    <img src="./images/bg-pattern-card.svg" alt="card background" class="card-pattern" />
+    <div class="card-details">
+      <img src="./images/image-victor.jpg" alt="avatar" class="avatar" />
+      <h1>Victor Crest <span class="age">26</span></h1>
+      <p class="city">London</p>
+      <div class="stats-section">
+        <p>
+          <span class="stats">80K</span>
+          <span class="stats-details">Followers</span>
+        </p>
+        <p>
+          <span class="stats">803K</span>
+          <span class="stats-details">Likes</span>
+        </p>
+        <p>
+          <span class="stats">1.4K</span>
+          <span class="stats-details">Photos</span>
+        </p>
+      </div>
     </div>
-  </main>
+  </section>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/Bopchy">Your Name Here</a>.
+    Coded by <a href="https://github.com/Bopchy">Bopchy</a>.
   </div>
 </body>
 </html>
