@@ -19,13 +19,13 @@ body {
     position: absolute;
     bottom: 65%;
     right: 40%;
-    width: 700px;
-    height: 700px
+    width: 43.75rem;
+    height: 43.75rem;
 }
 .background-pattern-bottom {
     position: absolute;
-    width: 700px;
-    height: 700px;
+    width: 43.75rem;
+    height: 43.75rem;
     top: 55%;
     left: 40%;
 }
@@ -96,4 +96,20 @@ body {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries: body */
+@media (min-width: 64rem) {
+    .background-pattern-top,
+    .background-pattern-bottom {
+        width: 1200px;
+        height: 1200px;
+    }
+    .background-pattern-top {
+        bottom: 50%;
+        transform: rotate(10deg);
+    }
+    .background-pattern-bottom {
+        top: 50%;
+    }
 }
