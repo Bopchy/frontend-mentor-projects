@@ -1,22 +1,21 @@
+import { styled } from "@linaria/react";
 import "./App.css";
+import Nav from "./Nav";
+import Main from "./Main";
+import Footer from "./Footer";
+
+const Layout = styled.div`
+  display: grid;
+  grid-template-columns: min-content 2fr 1fr;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Nav />
+      <Main />
+      <Footer />
+    </Layout>
   );
 }
 
