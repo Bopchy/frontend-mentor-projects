@@ -1,15 +1,16 @@
 import { styled } from "@linaria/react";
-import "./App.css";
 import Nav from "./Nav";
 import Main from "./Main";
 import Footer from "./Footer";
 
 const Layout = styled.div`
   display: grid;
-  grid-template-columns: min-content 2fr 1fr;
+  grid-template-rows: min-content 2fr 1fr;
+  height: 100%;
+  width: 100%;
 `;
 
-function App() {
+const App = () => {
   return (
     <Layout>
       <Nav />
@@ -17,6 +18,6 @@ function App() {
       <Footer />
     </Layout>
   );
-}
+};
 
 export default App;
