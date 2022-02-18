@@ -1,5 +1,5 @@
 import { styled } from "@linaria/react";
-import { BACKGROUND_DARK } from "../utils/colors";
+import { BACKGROUND_DARK, WHITE } from "../utils/colors";
 import { ReactComponent as Hamburger } from "../assets/hamburger.svg";
 import { ReactComponent as Logo } from "../assets/logo.svg";
 import { ReactComponent as Cart } from "../assets/cart.svg";
@@ -10,6 +10,7 @@ const Navigation = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 2rem 1.5rem;
+  border-bottom: 0.0625rem solid rgba(${WHITE}, 0.1);
 `;
 
 const Nav = () => (
