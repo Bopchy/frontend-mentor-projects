@@ -1,25 +1,24 @@
 import React from "react";
+import { styled } from "@linaria/react";
 
 import IconButton from "./IconButton";
+import { Paragraph } from "./Typography";
 
-import facebook from "../assets/icons/facebook";
-import twitter from "../assets/icons/twitter";
-import instagram from "../assets/icons/instagram";
-
-const Paragraph = styled.p`
-  margin: 0;
-  font-size: ;
-  line-height: ;
-`;
+import { ReactComponent as Facebook } from "../assets/icons/facebook.svg";
+import { ReactComponent as Twitter } from "../assets/icons/twitter.svg";
+import { ReactComponent as Instagram } from "../assets/icons/instagram.svg";
 
 const IconWrapper = styled.div`
   display: flex;
-  flex-direction: column;
   gap: 1rem;
 `;
 
+const FooterWrapper = styled.footer`
+  text-align: center;
+`;
+
 const Footer = () => (
-  <footer>
+  <FooterWrapper>
     <Paragraph>
       Audiophile is an all in one stop to fulfill your audio needs. We're a
       small team of music lovers and sound specialists who are devoted to
@@ -28,11 +27,11 @@ const Footer = () => (
     </Paragraph>
     <p>Copyright 2021. All Rights Reserved</p>
     <IconWrapper>
-      <IconButton src={facebook} iconName={facebook} />
-      <IconButton src={twitter} iconName={twitter} />
-      <IconButton src={instagram} iconName={instagram} />
+      <Facebook />
+      <Twitter />
+      <Instagram />
     </IconWrapper>
-  </footer>
+  </FooterWrapper>
 );
 
 export default Footer;

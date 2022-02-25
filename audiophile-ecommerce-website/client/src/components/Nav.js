@@ -1,8 +1,8 @@
 import { styled } from "@linaria/react";
 import { BACKGROUND_DARK, WHITE } from "../utils/colors";
-import { ReactComponent as Hamburger } from "../assets/hamburger.svg";
-import { ReactComponent as Logo } from "../assets/logo.svg";
-import { ReactComponent as Cart } from "../assets/cart.svg";
+import { ReactComponent as Hamburger } from "../assets/icons/hamburger.svg";
+import { ReactComponent as Logo } from "../assets/icons/logo.svg";
+import { ReactComponent as Cart } from "../assets/icons/cart.svg";
 
 const Navigation = styled.nav`
   background-color: ${BACKGROUND_DARK};
