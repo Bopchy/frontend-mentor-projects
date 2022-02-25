@@ -1,4 +1,6 @@
 import { styled } from "@linaria/react";
+
+import globalStyles from "../theme/GlobalStyles";
 import Nav from "./Nav";
 import Main from "./Main";
 import Footer from "./Footer";
@@ -12,7 +14,7 @@ const Layout = styled.div`
 
 const App = () => {
   return (
-    <Layout>
+    <Layout className={globalStyles}>
       <Nav />
       <Main />
       <Footer />
