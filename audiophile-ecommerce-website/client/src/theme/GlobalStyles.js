@@ -2,6 +2,8 @@ import { css } from "@linaria/core";
 
 const globalStyles = css`
   :global() {
+    @import ('@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&display=swap');
+
     html {
       box-sizing: border-box;
     }
@@ -14,9 +16,7 @@ const globalStyles = css`
 
     body {
       margin: 0;
-    }
-
-    @font-face() {
+      font-family: "Manrope", sans-serif;
     }
   }
 `;
