@@ -1,5 +1,5 @@
 import { styled } from "@linaria/react";
-import { BACKGROUND_DARK, WHITE } from "../utils/colors";
+import { BACKGROUND_DARK, WHITE } from "../theme/colors";
 import { ReactComponent as Hamburger } from "../assets/icons/hamburger.svg";
 import { ReactComponent as Logo } from "../assets/icons/logo.svg";
 import { ReactComponent as Cart } from "../assets/icons/cart.svg";
