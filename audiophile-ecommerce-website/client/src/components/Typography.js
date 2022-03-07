@@ -1,4 +1,5 @@
 import { styled } from "@linaria/react";
+import { WHITE } from "../theme/colors";
 
 export const Header = `
   font-weight: 700;
@@ -8,7 +9,16 @@ export const Header = `
   letter-spacing: 0.125rem;
 `;
 
-// can i stop specifying the Manrope?
+export const MenuItem = `
+  color: ${WHITE};
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+  line-height: 1.5625rem;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  font-style: normal;
+`;
+
 export const Paragraph = styled.p`
   margin: 0;
   font-weight: 500;

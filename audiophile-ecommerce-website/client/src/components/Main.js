@@ -1,7 +1,7 @@
 import HeroImage from "../assets/images/home/desktop/image-hero.jpg";
 const Main = () => (
   <div>
-    <img src={HeroImage} alt="hero" />
+    <img src={HeroImage} alt="hero" style={{ width: "100%" }} />
     <p>New product</p>
     <h1>XX99 Mark II Headphones</h1>
     <p>
