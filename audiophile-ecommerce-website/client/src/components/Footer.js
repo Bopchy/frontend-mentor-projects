@@ -4,6 +4,7 @@ import { styled } from "@linaria/react";
 import { Paragraph } from "./Typography";
 import { WHITE, BLACK, PRIMARY_DARK } from "../theme/colors";
 import Menu from "./MenuButton";
+import IconButton from "./IconButton";
 
 import { ReactComponent as Facebook } from "../assets/icons/facebook.svg";
 import { ReactComponent as Twitter } from "../assets/icons/twitter.svg";
@@ -52,9 +53,15 @@ const Footer = () => (
     </FooterParagraph>
     <FooterParagraph>Copyright 2021. All Rights Reserved</FooterParagraph>
     <IconWrapper>
-      <Facebook />
-      <Twitter />
-      <Instagram />
+      <IconButton iconName="Facebook">
+        <Facebook />
+      </IconButton>
+      <IconButton iconName="Twitter">
+        <Twitter />
+      </IconButton>
+      <IconButton iconName="Instagram">
+        <Instagram />
+      </IconButton>
     </IconWrapper>
   </FooterWrapper>
 );
