@@ -1,4 +1,5 @@
-import HeroImage from "../assets/images/home/desktop/image-hero.jpg";
+import HeroImage from "../assets/images/home/mobile/image-header.jpg";
+
 const Main = () => (
   <div>
     <img src={HeroImage} alt="hero" style={{ width: "100%" }} />

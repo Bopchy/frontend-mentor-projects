@@ -10,6 +10,7 @@ const Layout = styled.div`
   grid-template-rows: min-content 2fr 1fr;
   height: 100%;
   width: 100%;
+  position: relative;
 `;
 
 const App = () => {
