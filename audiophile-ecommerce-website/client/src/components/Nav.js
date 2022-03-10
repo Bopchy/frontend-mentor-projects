@@ -9,6 +9,7 @@ import { ReactComponent as Cart } from "../assets/icons/cart.svg";
 
 const Navigation = styled.nav`
   position: absolute;
+  z-index: 10;
   top: 0;
   width: 100%;
   display: flex;
