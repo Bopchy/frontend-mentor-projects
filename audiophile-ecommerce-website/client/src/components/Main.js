@@ -1,6 +1,7 @@
 import { styled } from "@linaria/react";
 
 import HeroImage from "../assets/images/home/mobile/image-header.jpg";
+import { Paragraph } from "./Typography";
 
 const TextWrapper = styled.div`
   position: absolute;
@@ -18,7 +19,7 @@ const MainComponent = () => (
   <Main>
     <Background src={HeroImage} alt="Hero" />
     <TextWrapper>
-      <p>New product</p>
+      <Paragraph>New product</Paragraph>
       <h1>XX99 Mark II Headphones</h1>
       <p>
         Experience natural, lifelike audio and exceptional build quality made
