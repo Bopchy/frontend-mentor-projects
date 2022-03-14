@@ -26,3 +26,14 @@ export const Paragraph = styled.p`
   font-style: normal;
   line-height: 1.5625rem;
 `;
+
+export const Light = styled.p`
+  color: ${WHITE};
+  opacity: 0.5;
+  margin: 0;
+  font-weight: 400;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.625rem;
+  line-height: 1.1875rem;
+`;
