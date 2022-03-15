@@ -7,7 +7,7 @@ import Footer from "./Footer";
 
 const Layout = styled.div`
   display: grid;
-  grid-template-rows: min-content 2fr 1fr;
+  grid-template-rows: min-content 2fr min-content;
   height: 100%;
   width: 100%;
   position: relative;

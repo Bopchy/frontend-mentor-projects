@@ -1,7 +1,7 @@
 import { styled } from "@linaria/react";
 import { WHITE } from "../theme/colors";
 
-export const Header = `
+export const Header = styled.h1`
   font-weight: 700;
   font-size: 3.5rem;
   font-style: normal;

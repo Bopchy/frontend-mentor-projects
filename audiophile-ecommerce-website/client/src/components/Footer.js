@@ -21,7 +21,8 @@ const FooterWrapper = styled.footer`
   position: relative;
 `;
 
-const FooterParagraph = styled(Paragraph)`
+const FooterParagraph = styled.p`
+  ${Paragraph}
   color: ${WHITE};
   opacity: 0.5;
   text-align: center;

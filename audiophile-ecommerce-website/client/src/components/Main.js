@@ -1,19 +1,26 @@
 import { styled } from "@linaria/react";
 
-import HeroImage from "../assets/images/home/mobile/image-header.jpg";
 import { Paragraph, Header, Light } from "./Typography";
+import { WHITE } from "../theme/colors";
 
-const TextWrapper = styled.div`
-  position: absolute;
-  top: 0%;
-`;
+import HeroImage from "../assets/images/home/mobile/image-header.jpg";
 
 const Background = styled.img`
   width: 100%;
-  position: relative;
 `;
 
-const Main = styled.main``;
+const Main = styled.main`
+  display: flex;
+  align-items: center;
+  position: relative;
+  min-height: 80%;
+`;
+
+const TextWrapper = styled.div`
+  position: absolute;
+  text-align: center;
+  border-top: 0.0625rem solid rgba(${WHITE}, 0.1);
+`;
 
 const MainComponent = () => (
   <Main>
