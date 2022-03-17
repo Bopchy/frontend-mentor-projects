@@ -19,7 +19,30 @@ const Main = styled.main`
 const TextWrapper = styled.div`
   position: absolute;
   text-align: center;
-  border-top: 0.0625rem solid rgba(${WHITE}, 0.1);
+  padding: 0 1.5rem;
+
+  ${Light} {
+    padding-bottom: 1rem;
+  }
+
+  ${Header} {
+    color: ${WHITE};
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.080625rem;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    margin: 0;
+  }
+
+  ${Paragraph} {
+    font-size: 0.9375rem;
+    line-height: 1.5625rem;
+    opacity: 0.75;
+    color: ${WHITE};
+    text-align: center;
+    padding-bottom: 1.75rem;
+  }
 `;
 
 const MainComponent = () => (

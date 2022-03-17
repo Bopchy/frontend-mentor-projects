@@ -1,6 +1,7 @@
 import { styled } from "@linaria/react";
 
 import IconButton from "./IconButton";
+import { WHITE } from "../theme/colors";
 
 import { ReactComponent as Hamburger } from "../assets/icons/hamburger.svg";
 import { ReactComponent as Logo } from "../assets/icons/logo.svg";
@@ -15,6 +16,7 @@ const Navigation = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 2rem 1.5rem;
+  border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.3);
 `;
 
 const Nav = () => (
