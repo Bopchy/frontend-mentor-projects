@@ -1,7 +1,7 @@
 import React from "react";
 import { styled } from "@linaria/react";
 
-import { PRIMARY_DARK } from "../theme/colors";
+import { PRIMARY_DARK } from "../../theme/colors";
 
 const Button = styled.button`
   width: 1.5rem;

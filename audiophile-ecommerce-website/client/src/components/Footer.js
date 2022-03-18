@@ -3,8 +3,8 @@ import { styled } from "@linaria/react";
 
 import { Paragraph } from "./Typography";
 import { WHITE, BLACK, PRIMARY_DARK } from "../theme/colors";
-import Menu from "./MenuButton";
-import IconButton from "./IconButton";
+import Menu from "./Buttons/MenuButton";
+import IconButton from "./Buttons/IconButton";
 
 import { ReactComponent as Facebook } from "../assets/icons/facebook.svg";
 import { ReactComponent as Twitter } from "../assets/icons/twitter.svg";
@@ -22,10 +22,11 @@ const FooterWrapper = styled.footer`
 `;
 
 const FooterParagraph = styled.p`
-  ${Paragraph}
-  color: ${WHITE};
-  opacity: 0.5;
-  text-align: center;
+  ${Paragraph} {
+    color: ${WHITE};
+    opacity: 0.5;
+    text-align: center;
+  }
 `;
 
 const IconWrapper = styled.div`

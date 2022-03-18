@@ -1,7 +1,8 @@
 import { styled } from "@linaria/react";
 
-import { Paragraph, Header, Light } from "./Typography";
 import { WHITE } from "../theme/colors";
+import { Paragraph, Header, Light } from "./Typography";
+import DefaultButton from "./Buttons/DefaultButton";
 
 import HeroImage from "../assets/images/home/mobile/image-header.jpg";
 
@@ -19,7 +20,7 @@ const Main = styled.main`
 const TextWrapper = styled.div`
   position: absolute;
   text-align: center;
-  padding: 0 1.5rem;
+  padding: 6.75rem 1.5rem 7rem 1.5rem;
 
   ${Light} {
     padding-bottom: 1rem;
@@ -55,7 +56,7 @@ const MainComponent = () => (
         Experience natural, lifelike audio and exceptional build quality made
         for the passionate music enthusiast.
       </Paragraph>
-      <button>SEE PRODUCT</button>
+      <DefaultButton buttonText="SEE PRODUCT" />
     </TextWrapper>
   </Main>
 );

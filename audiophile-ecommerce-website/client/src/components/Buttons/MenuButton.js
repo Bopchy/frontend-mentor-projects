@@ -1,7 +1,7 @@
 import { styled } from "@linaria/react";
 
-import { MenuItem } from "./Typography";
-import { PRIMARY_DARK } from "../theme/colors";
+import { MenuItem } from "../Typography";
+import { PRIMARY_DARK } from "../../theme/colors";
 
 const MenuButton = styled.button`
   width: 100%;
