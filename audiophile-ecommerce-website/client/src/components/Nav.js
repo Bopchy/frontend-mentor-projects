@@ -15,7 +15,7 @@ const Navigation = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 2rem 1.5rem;
-  border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.3);
+  border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.1);
 `;
 
 const Nav = () => (
