@@ -3,6 +3,7 @@ import { styled } from "@linaria/react";
 import { WHITE } from "../theme/colors";
 import { Paragraph, Header, Light } from "./Typography";
 import DefaultButton from "./Buttons/DefaultButton";
+import ShopItemCardList from "./ShopItemCardList";
 
 import HeroImage from "../assets/images/home/mobile/image-header.jpg";
 
@@ -21,6 +22,7 @@ const TextWrapper = styled.div`
   position: absolute;
   text-align: center;
   padding: 6.75rem 1.5rem 7rem 1.5rem;
+  bottom: 0%;
 
   ${Light} {
     padding-bottom: 1rem;
@@ -46,6 +48,10 @@ const TextWrapper = styled.div`
   }
 `;
 
+const ContentWrapper = styled.div`
+  padding: 2.5rem 1.5rem 7.5rem 1.5rem;
+`;
+
 const MainComponent = () => (
   <Main>
     <Background src={HeroImage} alt="Hero" />
@@ -58,6 +64,9 @@ const MainComponent = () => (
       </Paragraph>
       <DefaultButton buttonText="SEE PRODUCT" />
     </TextWrapper>
+    <ContentWrapper>
+      <ShopItemCardList />
+    </ContentWrapper>
   </Main>
 );
 
