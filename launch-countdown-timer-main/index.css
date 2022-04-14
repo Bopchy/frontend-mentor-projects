@@ -6,7 +6,7 @@ body {
   margin: 0;
   display: grid;
   grid-template-rows: 1fr 1fr min-content;
-  align-items: center;
+  justify-content: center;
 }
 
 /* Header */
@@ -15,23 +15,39 @@ body {
   font-weight: 700;
   color: hsl(0, 0%, 100%);
   text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.5rem;
+  margin: 0 1rem;
 }
 
 /* Timer */
 .timer {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 .timer-card {
-  width: 3rem;
-  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
 }
-.timer-card-text {
+.card-number {
   font-family: 'Red Hat Text', sans-serif;
-  font-size: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
   color: hsl(345, 95%, 68%);
+  padding: 1rem;
+  background-color: hsl(236, 21%, 26%);
+  margin-bottom: 0.875rem;
+  border-radius: 0.25rem;
 }
 .card-description {
-  font-size: 0.875rem;
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 0.5rem;
+  font-weight: 500;
   color: hsl(237, 18%, 59%);
   text-transform: uppercase;
 }
@@ -43,7 +59,7 @@ body {
   gap: 2rem;
   justify-content: center;
   position: absolute;
-  bottom: 10%;
+  bottom: 6%;
 }
 .social-button {
   padding: 0;
@@ -60,7 +76,7 @@ body {
 footer {
   width: 100%;
   position: absolute;
-  bottom: 5%;
+  bottom: 2%;
 }
 .attribution {
   font-size: 11px;
