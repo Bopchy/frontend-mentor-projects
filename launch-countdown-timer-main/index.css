@@ -43,12 +43,27 @@ body {
   font-size: 2rem;
   font-weight: 700;
   color: hsl(345, 95%, 68%);
-  padding: 1rem 0;
-  background-color: hsl(236, 21%, 26%);
+  background-color: hsl(237, 18%, 59%);
   margin-bottom: 0.875rem;
-  border-radius: 0.25rem;
   width: 4.5rem;
-  text-align: center;
+  height: 4.5rem;
+  position: relative;
+}
+.upper-card, .lower-card {
+  display: block;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  border-radius: 0.25rem;
+}
+.number {
+  position: absolute;
+  padding: 1rem;
+  display: block;
+}
+.lower-card {
+  bottom: 0%;
+  background-color: hsl(236, 21%, 26%);
 }
 .card-description {
   font-family: 'Red Hat Text', sans-serif;
@@ -90,5 +105,5 @@ footer {
   color: hsl(237, 18%, 59%);
 }
 .attribution a {
-  color: hsl(345, 95%, 68%);
+  color: hsl(345, 95%, 68%, 0.75);
 }
