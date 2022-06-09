@@ -7,6 +7,7 @@ body {
   background-image: url("./images/pattern-hills.svg"),  url("./images/bg-stars.svg");
   background-position: center bottom, center top;
   background-repeat: no-repeat;
+  background-size: contain;
   background-color: hsl(234, 17%, 12%);
   margin: 0;
   display: grid;
